@@ -13,14 +13,14 @@ export const Main = () => {
           <button>Contact us</button>
         </div>
         <div>
-          <img src="" alt="woman" />
+          <img src={require("../../img/contact svg.jpg")} alt="woman" />
         </div>
       </section>
       <section>
         <p>We are always in touch and will be happy to resolve any of your questions</p>
         <div>
           <div>
-            <img src="" alt="map" />
+            <img src={require("../../img/Screen Shot 2020-03-05 at 11.53 1.jpg")} alt="map" />
           </div>
           <div>
             <h3>Contact us</h3>
@@ -55,9 +55,9 @@ export const Main = () => {
           <div>
             <ul>
               <li><a href="#">WhatsApp</a></li>
-              <li><a href="#">WhatsApp</a></li>
-              <li><a href="#">WhatsApp</a></li>
-              <li><a href="#">WhatsApp</a></li>
+              <li><a href="#">Viber</a></li>
+              <li><a href="#">Messenger</a></li>
+              <li><a href="#">Telegram</a></li>
             </ul>
           </div>
         </div>

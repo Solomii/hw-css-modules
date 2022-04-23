@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     <footer>
       <section>
-        <img src="" alt="Footer Logo" />
+        <img  src={require("../../img/logo_footer.jpg")} alt="Footer Logo" />
         <p>THE BEST REAL ESTATE IN SPAIN</p>
       </section>
       <section>

@@ -19,7 +19,7 @@ export const Header = () => {
       </section>
       <section>
         <div>
-          <img src="" alt="Logo" />
+          <img src={require("../../img/logo_header.png")} alt="Logo" />
         </div>
         <div>
           <nav>
