@@ -1,29 +1,29 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 
+import "../Styles/Header.scss"
+
 export const Header = () => {
   return (
-    <header>
-      <section>
+    <header className="header">
+      <section className="header__section__one">
         <div>
-          <ul>
-           <li><a href="#">sales@wtgspain.com</a></li>
-           <li><a href="#">+34965020784</a></li>
-           <li><a href="#">+34965020784</a></li>   
-        </ul>
+           <a href="/email">sales@wtgspain.com</a>
+           <a href="/phone">+34965020784</a>
+           <a href="/whatsapp">WhatsApp</a>   
         </div>
         <div>
           <img src="" alt="" />
           <img src="" alt="" />
         </div>
       </section>
-      <section>
+      <section className="header__section__two">
         <div>
           <img src={require("../../img/logo_header.png")} alt="Logo" />
         </div>
-        <div>
-          <nav>
-            <ul>
+        <div className="header__menu">
+          <nav className="header__menu__navigation">
+            <ul  className="header__menu__navigation__ul">
               <li>Cities</li>
               <li>Properties</li>
               <li>Blog</li>

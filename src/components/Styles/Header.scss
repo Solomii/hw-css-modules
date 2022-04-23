@@ -1,0 +1,21 @@
+$darkBlueColor: rgba(10, 0, 67, 1);
+.header {
+  width: 1920px;
+  height: 60px;
+
+  .header__section__one {
+    background: $darkBlueColor;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header__section__two {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header__menu__navigation__ul {
+    display: flex;
+    flex-direction: row;
+  }
+}
