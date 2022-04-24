@@ -12,9 +12,14 @@
     justify-content: space-between;
     margin-bottom: 70px;
 
+    hr {
+      width:110px;
+      height: 2px; 
+      border-top:  1px solid #008DFE; 
+
+    }
+
     h3 {
-      font-family: "Montserrat";
-      font-style: normal;
       font-weight: 600;
       font-size: 20px;
       line-height: 24px;
@@ -56,8 +61,6 @@
     justify-content: center;
 
     h4 {
-      font-family: "Montserrat";
-      font-style: normal;
       font-weight: 500;
       font-size: 18px;
       line-height: 22px;
@@ -88,8 +91,6 @@
       }
 
       h3 {
-        font-family: "Montserrat";
-        font-style: normal;
         font-weight: 600;
         font-size: 22px;
         line-height: 27px;
@@ -135,16 +136,12 @@
         margin-bottom: 40px;
         border: none;
         color: $whiteColor;
-        font-family: "Montserrat";
-        font-style: normal;
         font-weight: 600;
         font-size: 14px;
         line-height: 17px;
       }
 
       p {
-        font-family: "Montserrat";
-        font-style: normal;
         font-weight: 400;
         font-size: 12px;
         line-height: 15px;
@@ -154,16 +151,22 @@
     }
   }
 
-  .main__section__three {
+  .main__section__two {
     height: 575px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 
+    hr {
+      width:110px;
+      align-items:center;
+      height: 0; 
+      border-top:  1px solid #008DFE; 
+      margin-bottom:50px;
+    }
+
     h3 {
-      font-family: "Montserrat";
-      font-style: normal;
       font-weight: 600;
       font-size: 22px;
       line-height: 27px;
@@ -172,8 +175,6 @@
     }
 
     p {
-      font-family: "Montserrat";
-      font-style: normal;
       font-weight: 400;
       font-size: 16px;
       line-height: 27px;
@@ -182,8 +183,6 @@
     }
 
     li {
-      font-family: "Montserrat";
-      font-style: normal;
       font-weight: 400;
       font-size: 14px;
       line-height: 17px;
@@ -197,11 +196,35 @@
       text-decoration: none;
     }
 
+    span {
+      margin-right:10px;
+      font-size:20px;
+    }
+
+    .main__contact__watsapp {
+      color: #4ED184;
+    }
+
+    .main__contact__viber {
+      color: #8E24AA;
+    }
+
+    .main__contact__messenger {
+      color: #008DFE;
+    }
+
+    .main__contact__telegram {
+      color: #20B3FF;
+    }
+
+
+
     .main__contact__box__one {
       display: flex;
       flex-direction: row;
       text-align: center;
       margin-bottom: 100px;
+
 
       .main__contact__phone {
         width: 169px;
@@ -209,6 +232,7 @@
         display: flex;
         flex-direction: column;
         text-align: center;
+        margin-right:180px;
       }
 
       .main__contact__office__address {
@@ -216,7 +240,9 @@
         height: 129px;
         display: flex;
         flex-direction: column;
+        align-items:center;
         text-align: center;
+        margin-right:120px;
       }
 
       .main__contact__office__email {
@@ -236,8 +262,6 @@
 
       h5 {
         margin-bottom: 30px;
-        font-family: "Montserrat";
-        font-style: normal;
         font-weight: 600;
         font-size: 24px;
         line-height: 29px;

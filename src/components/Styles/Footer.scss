@@ -1,7 +1,6 @@
 @import "../Variables/Variables.scss";
 
 .footer {
-  width: 1920px;
   height: 589px;
   display: flex;
   flex-direction: column;
@@ -17,39 +16,63 @@
 
   .footer__section__one {
     margin-top: 51px;
-
-    .footer__sectin__one__box__logo {
-      width: 291px;
-      height: 139px;
-      margin-right: 157px;
-    }
+    border-bottom: 1px solid #FFFFFF;
+    width: 1110px;
+    height: 139px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
 
     span {
       font-weight: bold;
     }
 
+    .footer__section__one__box__logo {
+       display:flex;
+       flex-direction:column;
+       align-items:center;
+       justify-content:center;
+       margin-bottom:10px;
+      
+    }
+
+    .footer__logo {
+      margin-bottom:30px;
+    }
+
     .footer__menu {
       width: 344px;
       height: 17px;
+    }
 
-      a {
-        font-family: "Montserrat";
-        font-style: normal;
+    a {
         font-weight: 500;
         font-size: 14px;
         line-height: 17px;
         letter-spacing: 0.05em;
-        margin-left: 20px;
       }
+   
+  }
+
+  .footer__section__two__menu {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+
+    a {
+      margin-right: 20px;
     }
   }
 
-  .footer__section__two {
+  .footer__section__three {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    margin-bottom: 53px;
+    margin-bottom: 80px;
     margin-top: 40px;
 
     h5 {
@@ -67,18 +90,23 @@
       li {
         margin-bottom: 22px;
       }
+      
+      span {
+        margin-right:15px;
+      }
     }
 
     .footer__section__two__type {
       width: 112px;
       height: 215px;
       margin-right: 157px;
+
       ul {
         list-style: none;
       }
 
       li {
-        margin-bottom: 5px;
+        margin-bottom: 10px;
       }
     }
 
@@ -97,6 +125,11 @@
 
       p {
         margin-bottom: 11px;
+      }
+
+       span {
+        margin-right:15px;
+        font-size:25px;
       }
 
       input {
@@ -124,8 +157,6 @@
     width: 769px;
     height: 24px;
     margin-bottom: 20px;
-    font-family: "Montserrat";
-    font-style: normal;
     font-weight: 500;
     font-size: 10px;
     line-height: 12px;

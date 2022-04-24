@@ -2,14 +2,19 @@
 /* eslint-disable jsx-a11y/heading-has-content */
 import React from "react";
 
+import {FaPhoneAlt, FaEnvelope, FaWhatsapp, FaViber, FaFacebookMessenger, FaTelegramPlane} from "react-icons/fa"
+
 import "../Styles/Main.scss"
 
 export const Main = () => {
   return (
     <main className="main">
       <section className="main__section__one">
-        <div>
-          <h3>WTG SPAIN</h3>
+        <div className="main__section__one__title">
+           <div>
+             <img src={require("../../img/Rectangle 144.png")} alt="Line" />
+             <h3>WTG SPAIN</h3>
+            </div>
           <h2>Do you need <span>some help</span>?</h2>
           <p>Contact us right now and our team will do eveereything to help you</p>
           <button>Contact us</button>
@@ -39,11 +44,12 @@ export const Main = () => {
           </div>
         </div>
       </section>
-      <section className="main__section__three">
+      <section className="main__section__two">
+        <hr></hr>
         <div className="main__contact__box__one">
           <div className="main__contact__phone">
             <h3>Phone</h3>
-            <a href="#">+34965020784</a>
+            <a href="#"><span><FaPhoneAlt/></span>+34965020784</a>
           </div>
           <div className="main__contact__office__address">
             <h3>Office in Spain</h3>
@@ -51,20 +57,21 @@ export const Main = () => {
           </div>
           <div className="main__contact__office__email"> 
             <h3>E-mail</h3>
-            <a href="#">sales@wtgspain.com</a>
+            <a href="#"><span><FaEnvelope/></span>sales@wtgspain.com</a>
           </div>
         </div>
+        <hr></hr>
         <div className="main__contact__box__two">
           <h5>We are online</h5>
           <div>
             <ul>
-              <li><a href="#">WhatsApp</a></li>
-              <li><a href="#">Viber</a></li>
-              <li><a href="#">Messenger</a></li>
-              <li><a href="#">Telegram</a></li>
+              <li><a href="#"><span className="main__contact__watsapp"><FaWhatsapp/></span>WhatsApp</a></li>
+              <li><a href="#"><span className="main__contact__viber"><FaViber/></span>Viber</a></li>
+              <li><a href="#"><span className="main__contact__messenger"><FaFacebookMessenger/></span>Messenger</a></li>
+              <li><a href="#"><span className="main__contact__telegram"><FaTelegramPlane/></span>Telegram</a></li>
             </ul>
           </div>
-        </div>
+        </div>  
       </section>
     </main>
   )
